@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 10vw;
+    margin: auto;
+    padding: 1.5rem 0 2rem 0;
+}
+
+main{
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+article,
+form{
+    margin-bottom:1.5rem ;
+}
+#email-input{
+    border-radius: 0.5rem;
+    border:1px solid rgba(0, 0, 0, 0.319);
+    padding: 0.5rem 2rem;
+}
+#btn{
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    padding: 1rem 1rem;
+}
+
+
+.illustration img{
+    width:50vw;
+}
