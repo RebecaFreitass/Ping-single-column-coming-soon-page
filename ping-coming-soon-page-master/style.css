@@ -27,6 +27,18 @@ form{
 span{
     color: rgba(0, 0, 0, 0.253);
 }
+
+#span-required {
+    display: none;
+    text-align: left;
+    color: red;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    font-family: "libre";
+    font-size: 0.8rem;
+}
+
 h1{
     margin-bottom: 0.5rem;
 }
@@ -48,7 +60,11 @@ form{
     font-size: 1rem;
 }
 #email-input:hover{
-    border: 1px solid hsl(223, 87%, 63%);
+    border: 1px solid #4f7df2, 87%, 63%;
+}
+#email-input:focus{
+    box-shadow: 0 0 0 0;
+    outline:  0;
 }
 
 #btn {

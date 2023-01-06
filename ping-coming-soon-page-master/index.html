@@ -21,10 +21,13 @@
       <h1><span>We are launching</span> soon!</h1>
       <p>Subscribe and get notified</p>
   </article>
-   <form action="">
-    <input type="email" name="user-email" id="email-input" placeholder="Your email address...">
-     <input type="button" value="Notify Me" id="btn">
-   </form>
+   <div>
+     <form action="" id="form">
+      <input type="email" name="user-email" id="email-input" placeholder="Your email address..." class="input required" oninput="emailValidate()" >
+     <button type="submite"id="btn">Notify Me</button>
+     </form>
+     <span id="span-required">Digite um email valido</span>
+   </div>
    <div class="illustration">
     <img src="images/illustration-dashboard.png" alt="">
    </div>
@@ -49,4 +52,5 @@
     </p>
   </footer>
 </body>
+<script src="formValidation.js"></script>
 </html>
