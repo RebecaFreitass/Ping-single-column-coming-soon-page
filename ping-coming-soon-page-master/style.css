@@ -58,3 +58,36 @@ form{
 .illustration img {
     width: 47vw;
 }
+
+
+.icons-social{
+    width: 1rem;
+  
+}
+
+ul li {
+    border: 1px solid rgba(0, 0, 0, 0.152);
+    border-radius: 6rem;
+    width: 3rem;
+    padding: 0.6rem 1rem;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 7%);
+}
+ul li:hover{
+    cursor: pointer;
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+#copy {
+    width: 20%;
+    margin: auto;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #00000070;
+}
