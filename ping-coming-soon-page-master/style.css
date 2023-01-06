@@ -19,19 +19,42 @@ article,
 form{
     margin-bottom:1.5rem ;
 }
-#email-input{
-    border-radius: 0.5rem;
-    border:1px solid rgba(0, 0, 0, 0.319);
-    padding: 0.5rem 2rem;
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
-#btn{
+#email-input {
+    border-radius: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.148);
+    padding: 1rem 2rem;
+    width: 68%;
+}
+#email-input::placeholder{
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 1rem;
+}
+#email-input:hover{
+    border: 1px solid hsl(223, 87%, 63%);
+}
+
+#btn {
     border: none;
     background-color: hsl(223, 87%, 63%);
     color: white;
     padding: 1rem 1rem;
+    border-radius: 2rem;
+    width: 20%;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 0.2rem 1rem #00000052;
+}
+#btn:hover{
+   background-color: hsl(145, 63%, 49%);
 }
 
-
-.illustration img{
-    width:50vw;
+.illustration img {
+    width: 47vw;
 }
