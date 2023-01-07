@@ -16,7 +16,7 @@ header{
 main{
     width: 50vw;
     margin: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     text-align: center;
 }
 article,
@@ -99,9 +99,10 @@ ul li {
     border: 1px solid rgba(0, 0, 0, 0.152);
     border-radius: 6rem;
     width: 3rem;
-    padding: 0.55rem 1rem;
+    padding: 0.6rem 1rem;
     box-shadow: 0 0 0.5rem rgb(0 0 0 / 7%);
     display: flex;
+    justify-content: center;
 }
 ul li:hover{
     cursor: pointer;
@@ -170,5 +171,8 @@ ul{
     }
     p{
         font-size: 0.8rem;
+    }
+    #copy {
+        width: 70vw;
     }
 }
